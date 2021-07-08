@@ -1,0 +1,23 @@
+package deneme.deneme1;
+
+import java.util.*;
+
+public class OguzHanoglu2{
+	
+       	public static void main (String[] args)
+	{
+        Scanner klavye = new Scanner (System.in);
+        System.out.println("Merhaba. Adin nedir?");
+        String isim = klavye.next();
+        System.out.println("Merhaba "+isim+".\n Ne guzel bir ismin var");
+        System.out.println("Keske benim de ismim "+isim+" olsa!");
+        System.out.println("Merhaba. 2. kullanici, senin adin nedir?");
+        String isim2 = klavye.next();
+        System.out.println("Merhaba,"+isim+" gibi "+isim2+" de cok guzel bir isim");
+        System.out.println("Keske benim de ismim "+isim2+" olsa!");
+        }
+	
+	
+	
+	
+}
